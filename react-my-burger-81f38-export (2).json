@@ -1,0 +1,284 @@
+{
+  "nodes" : [ {
+    "activeNode" : 0,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id" : "MON_LOGS_192.168.1.153",
+    "img" : "https://cdn0.iconfinder.com/data/icons/security-double-colour-blue-black-vol-3/52/router__wifi__signal__device-512.png",
+    "name" : "ASUS",
+    "nodes" : [ {
+      "id" : 0,
+      "img" : "https://cdn0.iconfinder.com/data/icons/security-double-color-red-and-black-vol-3/52/router__wifi__signal__device-512.png",
+      "model" : "red",
+      "price" : 5,
+      "skuMaxQuantity" : 10,
+      "skuMinQuantity" : 1
+    }, {
+      "id" : 1,
+      "img" : "https://cdn0.iconfinder.com/data/icons/network-communication-6/132/Untitled-3-15-512.png",
+      "model" : "white",
+      "price" : 6,
+      "skuMaxQuantity" : 6,
+      "skuMinQuantity" : 1
+    }, {
+      "id" : 2,
+      "img" : "https://cdn0.iconfinder.com/data/icons/security-double-colour-blue-black-vol-3/52/router__wifi__signal__device-512.png",
+      "model" : "blue",
+      "price" : 7,
+      "skuMaxQuantity" : 8,
+      "skuMinQuantity" : 1
+    } ],
+    "price" : 5,
+    "reqQuantity" : 1,
+    "skuMaxQuantity" : 20,
+    "skuMinQuantity" : 1
+  }, {
+    "activeNode" : 0,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "deviceType" : "server",
+    "id" : "MON_LOGS_192.168.1.53",
+    "img" : "https://cdn0.iconfinder.com/data/icons/security-double-colour-blue-black-vol-3/52/router__wifi__signal__device-512.png",
+    "name" : "MON_LOGS",
+    "nodes" : [ {
+      "id" : 0,
+      "img" : "https://cdn0.iconfinder.com/data/icons/security-double-colour-blue-black-vol-3/52/router__wifi__signal__device-512.png",
+      "model" : "1.0.1",
+      "name" : "lo",
+      "price" : 5,
+      "skuMaxQuantity" : 30,
+      "skuMinQuantity" : 1
+    }, {
+      "id" : 1,
+      "img" : "https://cdn0.iconfinder.com/data/icons/security-double-color-red-and-black-vol-3/52/router__wifi__signal__device-512.png",
+      "model" : "1.0.2",
+      "name" : "eth0",
+      "price" : 4,
+      "skuMaxQuantity" : 24,
+      "skuMinQuantity" : 1
+    } ],
+    "price" : 5,
+    "reqQuantity" : 1,
+    "skuMaxQuantity" : 30,
+    "skuMinQuantity" : 1,
+    "type" : "server",
+    "vendor" : "net-snmp"
+  }, {
+    "activeNode" : 0,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "deviceType" : "router",
+    "id" : "MON_LOGS_192.168.15.153",
+    "img" : "https://cdn0.iconfinder.com/data/icons/security-double-colour-blue-black-vol-3/52/router__wifi__signal__device-512.png",
+    "name" : "R5300",
+    "nodes" : [ {
+      "id" : 0,
+      "img" : "https://cdn0.iconfinder.com/data/icons/security-double-color-red-and-black-vol-3/52/router__wifi__signal__device-512.png",
+      "model" : 2.4,
+      "name" : "0",
+      "price" : 10,
+      "skuMaxQuantity" : 20,
+      "skuMinQuantity" : 1
+    }, {
+      "id" : 1,
+      "img" : "https://cdn0.iconfinder.com/data/icons/security-double-colour-blue-black-vol-3/52/router__wifi__signal__device-512.png",
+      "model" : 2.5,
+      "name" : "0",
+      "price" : 12,
+      "skuMaxQuantity" : 14,
+      "skuMinQuantity" : 1
+    } ],
+    "price" : 10,
+    "reqQuantity" : 1,
+    "skuMaxQuantity" : 20,
+    "skuMinQuantity" : 1,
+    "type" : "router",
+    "vendor" : "Farallon Computing, Inc."
+  }, {
+    "activeNode" : 0,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "deviceType" : "switch",
+    "id" : "172.22.22.213",
+    "img" : "https://cdn0.iconfinder.com/data/icons/security-double-color-red-and-black-vol-3/52/router__wifi__signal__device-512.png",
+    "name" : "Cisco 910",
+    "nodes" : [ {
+      "id" : 0,
+      "img" : "https://cdn0.iconfinder.com/data/icons/security-double-colour-blue-black-vol-3/52/router__wifi__signal__device-512.png",
+      "model" : "Asia",
+      "name" : "0",
+      "price" : 4,
+      "skuMaxQuantity" : 7,
+      "skuMinQuantity" : 5
+    } ],
+    "price" : 4,
+    "reqQuantity" : 5,
+    "skuMaxQuantity" : 7,
+    "skuMinQuantity" : 5,
+    "type" : "switch",
+    "vendor" : "Hewlett-Packard"
+  }, {
+    "activeNode" : 0,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "deviceType" : "router",
+    "id" : "Cisco3745new-1.NETDMT.COM_172.22.22.120",
+    "img" : "https://cdn0.iconfinder.com/data/icons/security-double-color-red-and-black-vol-3/52/router__wifi__signal__device-512.png",
+    "name" : "Cisco374",
+    "nodes" : [ {
+      "id" : 0,
+      "img" : "https://cdn0.iconfinder.com/data/icons/security-double-color-red-and-black-vol-3/52/router__wifi__signal__device-512.png",
+      "model" : "S",
+      "name" : "Se2/0",
+      "price" : 7,
+      "skuMaxQuantity" : 14,
+      "skuMinQuantity" : 1
+    }, {
+      "id" : 1,
+      "img" : "https://cdn0.iconfinder.com/data/icons/security-double-colour-blue-black-vol-3/52/router__wifi__signal__device-512.png",
+      "model" : "X",
+      "name" : "Se2/3",
+      "price" : 7,
+      "skuMaxQuantity" : 10,
+      "skuMinQuantity" : 1
+    } ],
+    "price" : 7,
+    "reqQuantity" : 1,
+    "skuMaxQuantity" : 14,
+    "skuMinQuantity" : 1,
+    "type" : "router",
+    "vendor" : "ciscoSystems"
+  }, {
+    "activeNode" : 0,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "id" : "FW-RD.NETDMT.COM_172.22.22.1",
+    "img" : "https://cdn0.iconfinder.com/data/icons/security-double-color-red-and-black-vol-3/52/router__wifi__signal__device-512.png",
+    "name" : "FW-RD",
+    "nodes" : [ {
+      "id" : 0,
+      "img" : "https://cdn0.iconfinder.com/data/icons/security-double-colour-blue-black-vol-3/52/router__wifi__signal__device-512.png",
+      "model" : 4.5,
+      "price" : 10,
+      "skuMaxQuantity" : 50,
+      "skuMinQuantity" : 1
+    }, {
+      "id" : 1,
+      "img" : "https://cdn0.iconfinder.com/data/icons/security-hand-drawn-vol-2-1/52/router__wifi__signal__device-512.png",
+      "model" : 5.5,
+      "price" : 11,
+      "skuMaxQuantity" : 47,
+      "skuMinQuantity" : 1
+    } ],
+    "price" : 10,
+    "reqQuantity" : 1,
+    "skuMaxQuantity" : 50,
+    "skuMinQuantity" : 1,
+    "type" : "server",
+    "vendor" : "net-snmp"
+  }, {
+    "activeNode" : 0,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "deviceType" : "switch",
+    "id" : "Summit5iTx_172.22.22.215",
+    "img" : "https://cdn0.iconfinder.com/data/icons/security-double-color-red-and-black-vol-3/52/router__wifi__signal__device-512.png",
+    "name" : "Summit5iTx",
+    "nodes" : [ {
+      "id" : 0,
+      "img" : "https://cdn0.iconfinder.com/data/icons/security-double-color-red-and-black-vol-3/52/router__wifi__signal__device-512.png",
+      "model" : 22,
+      "price" : 12,
+      "skuMaxQuantity" : 15,
+      "skuMinQuantity" : 5
+    }, {
+      "id" : 1,
+      "img" : "https://cdn0.iconfinder.com/data/icons/security-hand-drawn-vol-2-1/52/router__wifi__signal__device-512.png",
+      "model" : 30,
+      "price" : 11,
+      "skuMaxQuantity" : 5,
+      "skuMinQuantity" : 5
+    } ],
+    "price" : 12,
+    "reqQuantity" : 5,
+    "skuMaxQuantity" : 15,
+    "skuMinQuantity" : 5,
+    "vendor" : "Extreme Networks"
+  }, {
+    "activeNode" : 0,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "deviceType" : "switch",
+    "id" : "172.22.22.217",
+    "img" : "https://cdn0.iconfinder.com/data/icons/security-double-color-red-and-black-vol-3/52/router__wifi__signal__device-512.png",
+    "name" : "ZyXel",
+    "nodes" : [ {
+      "id" : 0,
+      "img" : "https://cdn0.iconfinder.com/data/icons/security-hand-drawn-vol-2-1/52/router__wifi__signal__device-512.png",
+      "model" : "FU",
+      "name" : "0",
+      "price" : 5,
+      "skuMaxQuantity" : 8,
+      "skuMinQuantity" : 1
+    } ],
+    "price" : 5,
+    "reqQuantity" : 1,
+    "skuMaxQuantity" : 8,
+    "skuMinQuantity" : 1,
+    "state" : "down",
+    "type" : "switch",
+    "vendor" : "Enterasys Networks Inc."
+  }, {
+    "activeNode" : 0,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "deviceType" : "switch",
+    "id" : "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202",
+    "img" : "https://cdn0.iconfinder.com/data/icons/security-double-color-red-and-black-vol-3/52/router__wifi__signal__device-512.png",
+    "name" : "Huawei_Versatile_Routing_VRP_3.10",
+    "nodes" : [ {
+      "id" : 0,
+      "img" : "https://cdn0.iconfinder.com/data/icons/security-double-color-red-and-black-vol-3/52/router__wifi__signal__device-512.png",
+      "model" : "A+",
+      "name" : "Ethernet1/0/18",
+      "price" : 50,
+      "skuMaxQuantity" : 20,
+      "skuMinQuantity" : 1
+    }, {
+      "id" : 1,
+      "img" : "https://cdn0.iconfinder.com/data/icons/security-double-colour-blue-black-vol-3/52/router__wifi__signal__device-512.png",
+      "model" : "A-",
+      "name" : "Ethernet1/0/31",
+      "price" : 55,
+      "skuMaxQuantity" : 27,
+      "skuMinQuantity" : 1
+    } ],
+    "price" : 50,
+    "reqQuantity" : 1,
+    "skuMaxQuantity" : 20,
+    "skuMinQuantity" : 1,
+    "type" : "switch",
+    "vendor" : "HUAWEI Technology Co.,Ltd"
+  }, {
+    "activeNode" : 0,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "deviceType" : "switch",
+    "id" : "zywall-usg-50_172.22.22.218",
+    "img" : "https://cdn0.iconfinder.com/data/icons/security-double-color-red-and-black-vol-3/52/router__wifi__signal__device-512.png",
+    "name" : "zywall-usg-50",
+    "nodes" : [ {
+      "id" : 0,
+      "img" : "https://cdn0.iconfinder.com/data/icons/security-double-color-red-and-black-vol-3/52/router__wifi__signal__device-512.png",
+      "model" : "0/0/1",
+      "name" : "0",
+      "price" : 15,
+      "skuMaxQuantity" : 15,
+      "skuMinQuantity" : 1
+    }, {
+      "id" : 1,
+      "img" : "https://cdn0.iconfinder.com/data/icons/security-double-colour-blue-black-vol-3/52/router__wifi__signal__device-512.png",
+      "model" : "0/0/13",
+      "name" : "0",
+      "price" : 14,
+      "skuMaxQuantity" : 22,
+      "skuMinQuantity" : 1
+    } ],
+    "price" : 15,
+    "reqQuantity" : 1,
+    "skuMaxQuantity" : 15,
+    "skuMinQuantity" : 1,
+    "type" : "switch",
+    "vendor" : "ZyXEL Communications Corp."
+  } ]
+}
