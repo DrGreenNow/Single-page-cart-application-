@@ -44,7 +44,7 @@ class App extends React.Component {
     this.setState({ items });
   };
 
-  sum = item => {
+  rowSum = item => {
     return item.nodes[item.activeNode].price * item.reqQuantity;
   };
 
@@ -56,11 +56,12 @@ class App extends React.Component {
     return total;
   };
 
-  handleChange = (key, e) => {
+  handleChange = (item, e) => {
     const items = [...this.state.items];
-    const index = items.indexOf(key);
-    items[index] = { ...key };
+    const index = items.indexOf(item);
+    items[index] = { ...item };
     items[index].activeNode = e.target.value;
+    items[index].reqQuantity = items[index].skuMinQuantity;
     this.setState({ items });
   };
 
@@ -107,7 +108,7 @@ class App extends React.Component {
               </div>
               <div className="trashWrapper">
                 <Trash onClick={() => this.handleDelete(item)} />
-                <p className="ourFont">{this.sum(item)} &euro;</p>
+                <p className="ourFont">{this.rowSum(item)} &euro;</p>
               </div>
             </div>
           );
